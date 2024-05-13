@@ -1,7 +1,7 @@
 
 # API en Go
 
-Este proyecto es una API desarrollada en Go que utiliza Swaggo para generar documentación Swagger.
+Este proyecto es una API desarrollada en Go 
 
 ## Requisitos Previos
 
