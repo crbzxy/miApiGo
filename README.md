@@ -12,8 +12,8 @@ Asegúrate de tener Go instalado en tu máquina. Esta API requiere Go 1.15 o sup
 Clona el repositorio en tu máquina local usando:
 
 ```bash
-git clone https://github.com/tu-usuario/tu-repositorio.git
-cd tu-repositorio
+git clone git@github.com:crbzxy/miApiGo.git
+cd miApiGo
 ```
 
 Instala todas las dependencias necesarias:
