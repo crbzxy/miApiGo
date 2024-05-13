@@ -19,7 +19,7 @@ func GetUserByID(id int) (User, error) {
             return u, nil
         }
     }
-    return User{}, errors.New("User not found")
+    return User{}, errors.New("User not found to get")
 }
 
 func AddUser(u User) (User, error) {
@@ -36,7 +36,7 @@ func UpdateUser(id int, u User) (User, error) {
             return users[i], nil
         }
     }
-    return User{}, errors.New("User not found")
+    return User{}, errors.New("User not found to update")
 }
 
 func DeleteUser(id int) error {
@@ -46,5 +46,5 @@ func DeleteUser(id int) error {
             return nil
         }
     }
-    return errors.New("User not found")
+    return errors.New("User not found to delete")
 }
